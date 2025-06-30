@@ -22,6 +22,7 @@ function handleCellClick(clickedCell, clickedCellIndex) {
 
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.textContent = currentPlayer;
+    clickedCell.classList.add(currentPlayer.toLowerCase()); // Add this line
     checkResult();
 }
 
