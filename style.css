@@ -38,10 +38,12 @@ h1 {
 
 .cell.x {
     color: blue;
+    background-color: #bbdefb; /* Light blue */
 }
 
 .cell.o {
     color: red;
+    background-color: #ef9a9a; /* Light red */
 }
 
 #status {
