@@ -27,13 +27,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2.2em;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .cell:hover {
-    background-color: #e0e0e0;
+    background-color: #e0e0e099;
 }
 
 .cell.x {
@@ -48,6 +48,6 @@ h1 {
 
 #status {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-align: center;
 }
